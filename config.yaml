@@ -1,0 +1,16 @@
+# GumShoo Configuration
+
+# File handling
+max_file_size_mb: 10
+max_texts_per_batch: 500
+
+# URL fetching
+url_timeout_seconds: 10
+max_url_size_mb: 5
+
+# Models
+models_dir: "models"
+
+# UI configuration
+page_title: "GumShoo - Social Media Safety Detector"
+page_layout: "centered"

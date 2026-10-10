@@ -1,0 +1,29 @@
+# Core framework
+streamlit==1.32.0
+
+# Data processing
+pandas==2.2.1
+numpy==1.26.4
+
+# File handling
+Pillow==10.2.0
+python-docx==1.1.0
+openpyxl==3.1.2
+
+# Configuration
+python-dotenv==1.0.1
+PyYAML==6.0.1
+
+# HTTP requests
+requests==2.31.0
+
+# Machine learning (for future model integration)
+scikit-learn==1.4.1.post1
+torch==2.2.1
+timm==0.9.16
+transformers==4.38.2
+vaderSentiment==3.3.2
+
+# Development tools
+pytest==8.1.1
+ruff==0.3.2
