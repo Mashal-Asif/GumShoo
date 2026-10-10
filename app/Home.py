@@ -8,6 +8,12 @@ Displays available analysis tools and allows users to select one for analysis.
 import pathlib
 import streamlit as st
 
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
 # Import all tool packages to trigger self-registration
 import tools.deepfake
 import tools.sentiment
