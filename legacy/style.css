@@ -1,0 +1,41 @@
+/* style.css  -  edit this file to change the look of the app, then refresh the browser. */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap");
+
+:root {
+  --ink: #2A2540;
+  --muted: #6F6890;
+  --line: #D9D1EC;
+  --plum: #5B4B8A;
+}
+
+/* page frame */
+.block-container { max-width: 900px; padding-top: 1.6rem; padding-bottom: 4rem; }
+#MainMenu, footer { visibility: hidden; }
+header[data-testid="stHeader"] { background: transparent; }
+
+/* top bar */
+.topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-bottom: 0.7rem; margin-bottom: 1.8rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted);
+}
+.topbar b { color: var(--ink); font-weight: 600; }
+
+/* small uppercase label above a card title */
+.eyebrow {
+  font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+  color: #8A7FB0; font-weight: 600; margin-bottom: 0.1rem;
+}
+
+/* typography */
+h1 { letter-spacing: -0.01em; }
+h2, h3 { letter-spacing: -0.005em; }
+[data-testid="stMetricValue"] { font-family: "Source Serif 4", Georgia, serif; }
+[data-testid="stMetricLabel"] { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; }
+hr { border-color: var(--line); }
+
+/* buttons and upload box */
+.stButton > button { font-weight: 500; letter-spacing: 0.02em; padding: 0.45rem 1.4rem; }
+[data-testid="stFileUploaderDropzone"] { background: #FBFAFE; border: 1px dashed #BDB2DE; }

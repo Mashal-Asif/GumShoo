@@ -1,0 +1,7 @@
+Model: Logistic Regression (TF-IDF word 1-2 grams + character 2-4 grams)
+Dataset: SMS Spam Collection, 5160 unique messages (642 spam), 80/20 stratified split
+Cross-validated F1 (training data): 0.962
+Test accuracy 0.991, precision 0.984, recall 0.945, F1 0.964
+Confusion matrix (normal, spam):
+[[902   2]
+ [  7 121]]

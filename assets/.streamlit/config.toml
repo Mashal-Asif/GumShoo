@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#6B21A8"  # plum - for primary actions and accent colors
+backgroundColor = "#FFFFFF"  # white - main background
+secondaryBackgroundColor = "#EDE9FE"  # lavender - secondary backgrounds and sidebars
+textColor = "#1A1A2E"  # ink - primary text color
+font = "sans serif"  # matches Inter font from CSS
+
+[server]
+headless = true  # disable browser auto-open for deployment

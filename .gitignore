@@ -65,3 +65,10 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Large datasets
+scamai-deepfake-detector-dataset-main/
+Deepfake Detection v3/
+fakeadd_dataset/
+sms+spam+collection/
+tweetEval_datasets/

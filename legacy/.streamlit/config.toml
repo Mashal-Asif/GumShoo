@@ -1,0 +1,44 @@
+# Theme for the app (restart "streamlit run app.py" after changing this file)
+[theme]
+base = "light"
+primaryColor = "#5B4B8A"
+backgroundColor = "#F6F3FB"
+secondaryBackgroundColor = "#EDE8F7"
+textColor = "#2A2540"
+
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap, sans-serif"
+headingFont = "Source Serif 4:https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600&display=swap, serif"
+headingFontSizes = ["2rem", "1.5rem", "1.2rem"]
+headingFontWeights = [600, 600, 600]
+
+baseRadius = "small"
+buttonRadius = "small"
+borderColor = "#D9D1EC"
+showWidgetBorder = true
+
+# success = soft green, error = soft pink, warning = lavender, info = periwinkle
+greenColor = "#4C9A73"
+greenBackgroundColor = "#DFF0E6"
+greenTextColor = "#2B6247"
+redColor = "#B5475F"
+redBackgroundColor = "#F8E3E8"
+redTextColor = "#7E2A40"
+yellowColor = "#8A78C2"
+yellowBackgroundColor = "#E9E3F7"
+yellowTextColor = "#4B3F72"
+blueColor = "#7F8FD1"
+blueBackgroundColor = "#E8EBF8"
+blueTextColor = "#3A4682"
+
+dataframeHeaderBackgroundColor = "#E6E0F4"
+dataframeHeaderTextColor = "#3A3358"
+dataframeBorderColor = "#D9D1EC"
+codeBackgroundColor = "#EFEAF8"
+linkColor = "#5B4B8A"
+chartCategoricalColors = ["#8E7CC3", "#7FBF9E", "#E59AB0", "#B8A9E3", "#A5D6BC", "#F2C0CE"]
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
